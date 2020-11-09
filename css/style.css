@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: white;
+}
+
+.calculadora > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #693e49 ;
+    height: 400px;
+}
+.calculadora > .container input {
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+}
+.calculadora > .container > .btn > .soma {
+    width: 40px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.calculadora > .container > .btn > .sub {
+    width: 40px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.calculadora > .container > .btn > .divisao {
+    width: 40px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.calculadora > .container > .btn > .mult {
+    width: 40px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+}
+.calculadora > .container > .btn > .clear {
+    width: 40px;
+    height: 35px;
+    margin: 5px;
+    border-radius: 8px;
+}
